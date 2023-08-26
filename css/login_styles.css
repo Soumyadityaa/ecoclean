@@ -1,0 +1,53 @@
+/* Additional styles for login.html */
+
+.login-section {
+    text-align: center;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .login-section label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .login-section input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ddd;
+  }
+  
+  .login-section button {
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .login-section button:hover {
+    background-color: #555;
+  }
+  
+  .error {
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header, footer {
+    background-color: rgb(57, 218, 191);
+    color: rgb(5, 121, 24);
+    text-align: center;
+    padding: 1rem;
+  }  
